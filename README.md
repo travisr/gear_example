@@ -14,7 +14,9 @@ This example primarily illustrates the basic mechanisms involved in building a g
 * Using a local gear library to simplify common gear tasks
 
 ## Defining the Docker Image
-We create a docker image based on python:slim and install the flywheel python SDK
+We create a docker image based on python:slim and install the flywheel python SDK.
+
+#### Dockerfile
 
 ```
 # Create docker image for use by gear
@@ -37,7 +39,7 @@ The manifest.json and example.py files were originally created by running the Fl
 fw gear create
 ```
 
-This command will prompt you through some questions to quickly generate a basic gear.  Key question include:
+This command will prompt you through some questions to quickly generate a basic gear.  Key questions include:
 
 * Descriptive name for the gear
 * Short name for the gear
