@@ -14,6 +14,12 @@ This example primarily illustrates the basic mechanisms involved in building a g
 ## Docker Image
 We create a docker image based on python:slim and install the flywheel python SDK
 
+```
+# Create docker image for use by gear
+FROM python:slim
+
+RUN pip install flywheel-sdk
+```
 ## Building th Image
 To build the container image, run make.sh.  This executes docker build with the resulting image named/tagged as "gear_example".  This is the container image referenced in the gear manifest.json file.
 
