@@ -14,7 +14,7 @@ This example primarily illustrates the basic mechanisms involved in building a g
 * Using a local gear library to simplify common gear tasks
 
 ## Defining the Docker Image
-We create a docker image based on python:slim and install the flywheel python SDK.
+We created a Dockerfile to create a docker image based on python:slim and install the flywheel python SDK.
 
 #### Dockerfile
 
