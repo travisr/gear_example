@@ -60,7 +60,7 @@
 		"PYTHON_PIP_VERSION": "18.0",
 		"PYTHON_VERSION": "3.7.0"
 	},
-	"command": "./example.py",
+	"command": "echo 'Running gear...\nExecuting Gear Manifest Commands:\n'; ./example.py",
 	"author": "Travis Richardson",
 	"maintainer": "Travis Richardson",
 	"cite": "List citations here.",
@@ -70,7 +70,7 @@
 	"custom": {
 		"gear-builder": {
 			"category": "converter",
-			"image": "python:slim"
+			"image": "gear-example"
 		}
 	}
 }
