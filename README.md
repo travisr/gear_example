@@ -1,7 +1,7 @@
 # gear_example
-Example app to show the basics of building a Flywheel gear.
+An example gear project to show the basics of building a Flywheel gear.
 
-This example primarily illustrates the basic mechanisms involved in building a gear, including:
+This example illustrates the basic mechanisms involved in building a gear, including:
 
 * Defining the Docker container image
 * Building the Docker image
@@ -12,6 +12,19 @@ This example primarily illustrates the basic mechanisms involved in building a g
     - input and output folders
     - getting gear data and configuration options from the config.json file
 * Using a local gear library to simplify common gear tasks
+
+## What is a Gear?
+Gears are applications that can be used to automate routine processing Flywheel.
+
+Gears are used for a number of tasks including:
+
+* Metadata capture
+* Classification of data
+* File format conversions
+* Quality control
+* Image processing & pipelines
+* Metadata manipulation
+* Data exchange with external systems
 
 ## Defining the Docker Image
 We created a Dockerfile to create a docker image based on python:slim and install the flywheel python SDK.
